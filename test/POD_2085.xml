@@ -1,0 +1,36 @@
+<annotation>
+    <folder> VOC2007 </folder>
+    <filename>POD_2085.jpg</filename>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1031</width>
+        <height>1459</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>figure</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>91</xmin>
+            <ymin>155</ymin>
+            <xmax>287</xmax>
+            <ymax>270</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>figure</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>294</xmin>
+            <ymin>155</ymin>
+            <xmax>494</xmax>
+            <ymax>270</ymax>
+        </bndbox>
+    </object>
+</annotation>

@@ -1,0 +1,58 @@
+<annotation>
+    <folder> VOC2007 </folder>
+    <filename>POD_2344.jpg</filename>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1061</width>
+        <height>1373</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>Table</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>114</xmin>
+            <ymin>925</ymin>
+            <xmax>936</xmax>
+            <ymax>1206</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>Table</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>114</xmin>
+            <ymin>598</ymin>
+            <xmax>936</xmax>
+            <ymax>880</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>Table</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>114</xmin>
+            <ymin>487</ymin>
+            <xmax>936</xmax>
+            <ymax>553</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>formula</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>335</xmin>
+            <ymin>279</ymin>
+            <xmax>716</xmax>
+            <ymax>299</ymax>
+        </bndbox>
+    </object>
+</annotation>

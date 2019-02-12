@@ -1,0 +1,47 @@
+<annotation>
+    <folder> VOC2007 </folder>
+    <filename>POD_2021.jpg</filename>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>898</width>
+        <height>1331</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>Table</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>45</xmin>
+            <ymin>890</ymin>
+            <xmax>747</xmax>
+            <ymax>1112</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>figure</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>41</xmin>
+            <ymin>14</ymin>
+            <xmax>825</xmax>
+            <ymax>58</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>figure</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>62</xmin>
+            <ymin>1280</ymin>
+            <xmax>769</xmax>
+            <ymax>1328</ymax>
+        </bndbox>
+    </object>
+</annotation>

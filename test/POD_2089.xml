@@ -1,0 +1,47 @@
+<annotation>
+    <folder> VOC2007 </folder>
+    <filename>POD_2089.jpg</filename>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1061</width>
+        <height>1373</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>formula</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>285</xmin>
+            <ymin>375</ymin>
+            <xmax>801</xmax>
+            <ymax>395</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>formula</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>186</xmin>
+            <ymin>568</ymin>
+            <xmax>816</xmax>
+            <ymax>638</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>formula</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>285</xmin>
+            <ymin>1167</ymin>
+            <xmax>801</xmax>
+            <ymax>1187</ymax>
+        </bndbox>
+    </object>
+</annotation>

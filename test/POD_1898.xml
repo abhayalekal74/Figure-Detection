@@ -1,0 +1,146 @@
+<annotation>
+    <folder> VOC2007 </folder>
+    <filename>POD_1898.jpg</filename>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1061</width>
+        <height>1373</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>figure</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>538</xmin>
+            <ymin>204</ymin>
+            <xmax>639</xmax>
+            <ymax>384</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>figure</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>224</xmin>
+            <ymin>525</ymin>
+            <xmax>337</xmax>
+            <ymax>638</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>figure</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>345</xmin>
+            <ymin>525</ymin>
+            <xmax>458</xmax>
+            <ymax>638</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>figure</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>466</xmin>
+            <ymin>525</ymin>
+            <xmax>579</xmax>
+            <ymax>638</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>figure</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>587</xmin>
+            <ymin>525</ymin>
+            <xmax>700</xmax>
+            <ymax>638</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>figure</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>708</xmin>
+            <ymin>525</ymin>
+            <xmax>821</xmax>
+            <ymax>638</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>figure</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>221</xmin>
+            <ymin>723</ymin>
+            <xmax>334</xmax>
+            <ymax>836</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>figure</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>342</xmin>
+            <ymin>723</ymin>
+            <xmax>455</xmax>
+            <ymax>836</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>figure</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>463</xmin>
+            <ymin>723</ymin>
+            <xmax>576</xmax>
+            <ymax>836</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>figure</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>584</xmin>
+            <ymin>723</ymin>
+            <xmax>697</xmax>
+            <ymax>836</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>figure</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>705</xmin>
+            <ymin>723</ymin>
+            <xmax>818</xmax>
+            <ymax>834</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>formula</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>483</xmin>
+            <ymin>1187</ymin>
+            <xmax>902</xmax>
+            <ymax>1228</ymax>
+        </bndbox>
+    </object>
+</annotation>

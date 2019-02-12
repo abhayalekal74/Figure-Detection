@@ -1,0 +1,58 @@
+<annotation>
+    <folder> VOC2007 </folder>
+    <filename>POD_1305.jpg</filename>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1061</width>
+        <height>1373</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>Table</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>264</xmin>
+            <ymin>155</ymin>
+            <xmax>796</xmax>
+            <ymax>301</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>formula</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>359</xmin>
+            <ymin>806</ymin>
+            <xmax>699</xmax>
+            <ymax>826</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>formula</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>350</xmin>
+            <ymin>928</ymin>
+            <xmax>707</xmax>
+            <ymax>977</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>formula</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>351</xmin>
+            <ymin>653</ymin>
+            <xmax>706</xmax>
+            <ymax>701</ymax>
+        </bndbox>
+    </object>
+</annotation>

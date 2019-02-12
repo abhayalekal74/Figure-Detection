@@ -1,0 +1,58 @@
+<annotation>
+    <folder> VOC2007 </folder>
+    <filename>POD_0669.jpg</filename>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1031</width>
+        <height>1459</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>figure</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>245</xmin>
+            <ymin>287</ymin>
+            <xmax>524</xmax>
+            <ymax>459</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>figure</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>540</xmin>
+            <ymin>287</ymin>
+            <xmax>819</xmax>
+            <ymax>459</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>figure</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>552</xmin>
+            <ymin>481</ymin>
+            <xmax>821</xmax>
+            <ymax>656</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>figure</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>245</xmin>
+            <ymin>484</ymin>
+            <xmax>524</xmax>
+            <ymax>656</ymax>
+        </bndbox>
+    </object>
+</annotation>

@@ -1,0 +1,80 @@
+<annotation>
+    <folder> VOC2007 </folder>
+    <filename>POD_0380.jpg</filename>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1031</width>
+        <height>1459</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>figure</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>894</xmin>
+            <ymin>660</ymin>
+            <xmax>907</xmax>
+            <ymax>675</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>formula</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>336</xmin>
+            <ymin>276</ymin>
+            <xmax>794</xmax>
+            <ymax>341</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>formula</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>400</xmin>
+            <ymin>466</ymin>
+            <xmax>732</xmax>
+            <ymax>531</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>formula</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>223</xmin>
+            <ymin>1037</ymin>
+            <xmax>353</xmax>
+            <ymax>1055</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>formula</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>224</xmin>
+            <ymin>1110</ymin>
+            <xmax>294</xmax>
+            <ymax>1126</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>formula</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>481</xmin>
+            <ymin>1169</ymin>
+            <xmax>907</xmax>
+            <ymax>1230</ymax>
+        </bndbox>
+    </object>
+</annotation>

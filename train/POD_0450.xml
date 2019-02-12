@@ -1,0 +1,47 @@
+<annotation>
+    <folder> VOC2007 </folder>
+    <filename>POD_0450.jpg</filename>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1031</width>
+        <height>1459</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>Table</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>98</xmin>
+            <ymin>205</ymin>
+            <xmax>671</xmax>
+            <ymax>393</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>Table</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>98</xmin>
+            <ymin>609</ymin>
+            <xmax>431</xmax>
+            <ymax>717</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>figure</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>691</xmin>
+            <ymin>132</ymin>
+            <xmax>909</xmax>
+            <ymax>339</ymax>
+        </bndbox>
+    </object>
+</annotation>

@@ -1,0 +1,36 @@
+<annotation>
+    <folder> VOC2007 </folder>
+    <filename>POD_0312.jpg</filename>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1061</width>
+        <height>1373</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>formula</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>245</xmin>
+            <ymin>589</ymin>
+            <xmax>820</xmax>
+            <ymax>705</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>formula</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>244</xmin>
+            <ymin>801</ymin>
+            <xmax>821</xmax>
+            <ymax>845</ymax>
+        </bndbox>
+    </object>
+</annotation>

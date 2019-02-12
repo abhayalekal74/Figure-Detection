@@ -1,0 +1,157 @@
+<annotation>
+    <folder> VOC2007 </folder>
+    <filename>POD_1783.jpg</filename>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1061</width>
+        <height>1489</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>figure</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>210</xmin>
+            <ymin>74</ymin>
+            <xmax>306</xmax>
+            <ymax>197</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>figure</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>263</xmin>
+            <ymin>336</ymin>
+            <xmax>387</xmax>
+            <ymax>463</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>figure</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>392</xmin>
+            <ymin>337</ymin>
+            <xmax>516</xmax>
+            <ymax>460</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>figure</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>521</xmin>
+            <ymin>337</ymin>
+            <xmax>645</xmax>
+            <ymax>464</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>figure</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>651</xmin>
+            <ymin>337</ymin>
+            <xmax>771</xmax>
+            <ymax>463</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>figure</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>263</xmin>
+            <ymin>465</ymin>
+            <xmax>387</xmax>
+            <ymax>587</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>figure</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>392</xmin>
+            <ymin>463</ymin>
+            <xmax>516</xmax>
+            <ymax>587</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>figure</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>521</xmin>
+            <ymin>463</ymin>
+            <xmax>645</xmax>
+            <ymax>586</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>figure</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>651</xmin>
+            <ymin>467</ymin>
+            <xmax>773</xmax>
+            <ymax>587</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>formula</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>377</xmin>
+            <ymin>1122</ymin>
+            <xmax>567</xmax>
+            <ymax>1144</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>formula</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>453</xmin>
+            <ymin>1148</ymin>
+            <xmax>659</xmax>
+            <ymax>1170</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>formula</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>453</xmin>
+            <ymin>1174</ymin>
+            <xmax>659</xmax>
+            <ymax>1196</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>formula</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>453</xmin>
+            <ymin>1202</ymin>
+            <xmax>825</xmax>
+            <ymax>1222</ymax>
+        </bndbox>
+    </object>
+</annotation>

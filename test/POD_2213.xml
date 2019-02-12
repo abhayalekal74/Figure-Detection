@@ -1,0 +1,25 @@
+<annotation>
+    <folder> VOC2007 </folder>
+    <filename>POD_2213.jpg</filename>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>835</width>
+        <height>1189</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>formula</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>116</xmin>
+            <ymin>841</ymin>
+            <xmax>731</xmax>
+            <ymax>884</ymax>
+        </bndbox>
+    </object>
+</annotation>
