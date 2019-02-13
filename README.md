@@ -9,9 +9,9 @@ python3 figure_detection.py -h
   python3 figure_detection.py --classes training.json 
   
 2. To further train an existing model  
-  python3 figure_detection.py --classes training.json --model existing_model.h5 --shape x,y
+    python3 figure_detection.py --classes training.json --model existing_model.h5 --shape x,y
   
-  Eg: python3 figure_detection.py --classes training.json --model existing_model.h5 --shape 1375,1022
+    Eg: python3 figure_detection.py --classes training.json --model existing_model.h5 --shape 1375,1022
 
 3. To predict  
   python3 figure_detection.py --classes predict.json --model model.h5 --shape x,y --pred
