@@ -15,3 +15,6 @@ python3 figure_detection.py -h
 
 3. To predict  
   python3 figure_detection.py --classes predict.json --model model.h5 --shape x,y --pred
+
+
+Update paths in training and testing json
