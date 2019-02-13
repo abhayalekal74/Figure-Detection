@@ -17,7 +17,7 @@ def die(err):
 def validate_args(args):
     # It is mandatory to pass classes json. If not found, the program will exit
     if not args.classes:
-        die("classes file is required")
+        die("classes argument is required")
     try:
         open(args.classes)
     except IOError:
@@ -26,17 +26,23 @@ def validate_args(args):
     # If predicting and a model is not passed, die
     if args.predict and not args.model:
         die("Pass a model to predict")        
+    
+    if args.predict and not args.shape:
+        die("Please pass the shape on which the model was trained on")
+
+    if args.shape and not args.model:
+        print ("Pass a shape only if the model was already trained on this shape, ignoring provided shape")
 
 
 def parse_args():
     parser = argparse.ArgumentParser()
     required_args = parser.add_argument_group("Required Arguments")
     required_args.add_argument("--classes", help="json containing folder path as the key and class as value")
-    parser.add_argument("--model", help="pass an already trained model for further training")
-    parser.add_argument("--shape", help="shape the images should be resized to")
+    parser.add_argument("--model", help="pass an already trained model for further training or for prediction")
+    parser.add_argument("--shape", help="shape the images should be resized to, pass if using an already trained model or running prediction. Shape should be the same as what it was trained on. If training a new model, program will print this")
     parser.add_argument("--save-as", dest="saveas", default="output_model.h5", help="save the model as")
     parser.add_argument("--epochs", default=200, type=int)
-    parser.add_argument("--no-resize", dest="resize", action="store_false", help="all images are of same shape, no need to resize")
+    parser.add_argument("--no-resize", dest="resize", action="store_false", help="use only if you are absolutely sure that all images are of same shape, program will crash otherwise")
     parser.add_argument("--pred", dest="predict", action="store_true", help="run prediction instead of training")
     parser.set_defaults(predict=False)
     parser.set_defaults(resize=True)
@@ -58,11 +64,11 @@ def get_classes(classes_json_file):
     return classes
 
 
-def get_resize_shape(images, shape=None):
+def get_resize_shape(images, resize, shape=None):
     # If the shape is provided, use as it is else calculate mean rows and cols. 
     if shape:
         rows, cols = map(int, shape.split(","))
-    else:    
+    elif resize:    
         row_shapes, col_shapes = [], []
         for img in images:
             img_matrix = imread(img, mode='RGB')
@@ -72,6 +78,13 @@ def get_resize_shape(images, shape=None):
         rows = (int) (np.mean(row_shapes))
         cols = (int) (np.mean(col_shapes))
         print ("Resizing images to shape [{},{}]".format(rows, cols))
+    else:
+        # Read one image's shape
+        for img in images:
+            img_matrix = imread(images[0], mode='RGB')
+            if img_matrix is not None:
+                rows, cols = img_matrix.shape[0], img_matrix.shape[1]
+                break
     return rows, cols
 
 
@@ -87,8 +100,7 @@ class FigureDetector:
         self.epochs = args.epochs
         self.should_resize_images = args.resize
 
-        if self.should_resize_images:
-            self.rows, self.cols = get_resize_shape(self.images, args.shape)
+        self.rows, self.cols = get_resize_shape(self.images, self.should_resize_images, shape=args.shape if args.model else None)
 
         self.encode_labels()
         self.build_model()
@@ -131,7 +143,7 @@ class FigureDetector:
     def build_model(self):
         if self.model_load_from:
             # If a model has been passed, use it.
-            self.model = keras.models.build_model(self.model_load_from)
+            self.model = keras.models.load_model(self.model_load_from)
         else:
             # Otherwise build a CNN
             self.model = keras.models.Sequential()
